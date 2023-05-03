@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color:grey;
+  color:blue;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center-right;
+  flex-wrap: wrap;
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(OIP.jpg);
+  background-size: cover;
+  background-position:center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-right: 10px;
+}
+
+nav li {
+  display: block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover{
+    background-color: aqua;
+    color: red;
+
+}
+
+main {
+  padding: 90px;
+  display: flex;
+  flex-wrap: wrap;
+   background-color:grey;
+  background-size: cover;
+  background-position:center;
+}
+
+section {
+  margin-bottom: 20px;
+  flex-basis: 100%;
+  font-color:white;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-color:white;
+}
+
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+section li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color:#f5f5f5;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  
+ 
+  
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 20px 40px;
+  }
+}
+    </style>
+    <title>CIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>  Welcome to Chennai Institute of Technology</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Facilities</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About Us</h2>
+        <p>Chennai Institute of technology, the best engineering college in Chennai was established with the objective of providing quality technical education with adequate industrial exposure than any other engineering colleges in Chennai, caters the needs of the youth with its innovative teaching methods.</p>
+      </section>
+      <section>
+        <h2>Our Facilities</h2>
+        <div class="list">
+        <ul>
+          <li><a href="https://www.citchennai.edu.in/admission/">Admissions</a></li>
+          <li><a href="https://www.citchennai.edu.in/infrastructure/">Infrastructure</a></li>
+          <li><a href="https://www.citchennai.edu.in/training-placement/">Training & Placement</a></li>
+		   <li><a href="https://www.citchennai.edu.in/research/">Research & Development</a></li>
+		
+		 
+        </ul>
+        </div>
+      </section>
+	  
+      <section>
+        <h2>Contact Us</h2>
+		 <div class="list">
+        <form>
+		 <ul>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email"></br>Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message"></br>Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit"></br>Send</button>
+		   </ul>
+        </form>
+		 </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Responsive Website</p>
+    </footer>
+  </body>
+</html>
